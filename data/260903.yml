@@ -1,0 +1,61 @@
+about:
+  description: A markup-based typesetting system that is powerful and easy to learn.
+  license: Apache-2.0
+  homepage: https://typst.app
+  head: 7aef829
+  archived: false
+  latestVersion: v0.15.1
+  collectedAt: 2026-09-03T05:02:42Z
+timeline:
+  created: 2019-09-24
+  lastCommit: 2026-09-01
+  lastRelease: 2026-07-17
+popularity:
+  star: 55815
+  watcher: 138
+  fork: 1698
+  release: 30
+  contributor: 460
+  pullRequest: 703
+  issue: 4517
+language:
+  Rust: 5309709
+  Typst: 902001
+  JavaScript: 25128
+  TypeScript: 20520
+  CSS: 13437
+  Dockerfile: 1872
+totalLine: 6272667
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 0
+    mergedPR: 16
+    openPR: 21
+    closedIssue: 18
+    openIssue: 29
+    commit: 26
+  last90d:
+    since: 2026-06-05
+    release: 3
+    mergedPR: 94
+    openPR: 36
+    closedIssue: 99
+    openIssue: 100
+    commit: 127
+  last180d:
+    since: 2026-03-07
+    release: 3
+    mergedPR: 257
+    openPR: 47
+    closedIssue: 223
+    openIssue: 217
+    commit: 400
+  last360d:
+    since: 2025-09-08
+    release: 8
+    mergedPR: 641
+    openPR: 59
+    closedIssue: 554
+    openIssue: 424
+    commit: 931
