@@ -1,0 +1,174 @@
+about:
+  description: "A markup-based typesetting system that is powerful and easy to learn."
+  license: Apache-2.0
+  homepage: https://typst.app
+  head: 47f1d1f
+  archived: false
+  latestVersion: "v0.15.1"
+  collectedAt: 2026-09-07T05:59:23Z
+timeline:
+  created: 2019-09-24
+  lastCommit: 2026-09-03
+  lastRelease: 2026-07-17
+popularity:
+  star: 55880
+  watcher: 139
+  fork: 1708
+  release: 30
+  contributor: 461
+  pullRequest: 3226
+  issue: 4525
+language:
+  Rust: 5310010
+  Typst: 902001
+  JavaScript: 25128
+  TypeScript: 20520
+  CSS: 13437
+  Dockerfile: 1872
+totalBytes: 6272968
+recent:
+  last30d:
+    since: 2026-08-08
+    release: 0
+    mergedPR: 17
+    openPR: 26
+    closedIssue: 21
+    openIssue: 29
+    commit: 27
+  last60d:
+    since: 2026-07-09
+    release: 1
+    mergedPR: 43
+    openPR: 32
+    closedIssue: 49
+    openIssue: 63
+    commit: 63
+  last90d:
+    since: 2026-06-09
+    release: 3
+    mergedPR: 80
+    openPR: 41
+    closedIssue: 96
+    openIssue: 101
+    commit: 102
+  last180d:
+    since: 2026-03-11
+    release: 3
+    mergedPR: 255
+    openPR: 52
+    closedIssue: 225
+    openIssue: 213
+    commit: 385
+  last360d:
+    since: 2025-09-12
+    release: 8
+    mergedPR: 626
+    openPR: 64
+    closedIssue: 550
+    openIssue: 424
+    commit: 918
+  last720d:
+    since: 2024-09-17
+    release: 14
+    mergedPR: 1264
+    openPR: 67
+    closedIssue: 1263
+    openIssue: 823
+    commit: 1656
+total:
+  release: 30
+  mergedPR: 2517
+  openPR: 67
+  closedIssue: 3307
+  openIssue: 1218
+  commit: 4880
+---
+path: /home/runner/.x-repo/github.com/typst/typst
+collectedAt: 2026-09-07T05:59:33Z
+loc:
+  Rust:
+    code: 107414
+    comments: 6656
+    blanks: 15579
+    files: 408
+  Css:
+    code: 2387
+    comments: 51
+    blanks: 498
+    files: 3
+  JavaScript:
+    code: 1476
+    comments: 420
+    blanks: 244
+    files: 2
+  Toml:
+    code: 1112
+    comments: 29
+    blanks: 90
+    files: 28
+  TypeScript:
+    code: 584
+    comments: 55
+    blanks: 70
+    files: 1
+  Json:
+    code: 562
+    comments: 0
+    blanks: 0
+    files: 5
+  Dockerfile:
+    code: 38
+    comments: 1
+    blanks: 8
+    files: 1
+  Markdown:
+    code: 0
+    comments: 773
+    blanks: 160
+    files: 8
+  Text:
+    code: 0
+    comments: 5662
+    blanks: 0
+    files: 134
+total:
+  code: 113630
+  comments: 39439
+  blanks: 20569
+  files: 590
+---
+
+---
+eget:
+  collectedAt: 2026-09-07T05:59:34+00:00
+  platform:
+    darwin/arm64:
+      name:  typst-aarch64-apple-darwin.tar.xz
+      url:   https://github.com/typst/typst/releases/download/v0.15.1/typst-aarch64-apple-darwin.tar.xz
+      size:  14438168
+      score: 45
+    darwin/amd64:
+      name:  typst-x86_64-apple-darwin.tar.xz
+      url:   https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-apple-darwin.tar.xz
+      size:  15635600
+      score: 45
+    linux/arm64:
+      name:  typst-aarch64-unknown-linux-musl.tar.xz
+      url:   https://github.com/typst/typst/releases/download/v0.15.1/typst-aarch64-unknown-linux-musl.tar.xz
+      size:  16216812
+      score: 45
+    linux/amd64:
+      name:  typst-x86_64-unknown-linux-musl.tar.xz
+      url:   https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-unknown-linux-musl.tar.xz
+      size:  17462992
+      score: 45
+    win/arm64:
+      name:  typst-aarch64-pc-windows-msvc.zip
+      url:   https://github.com/typst/typst/releases/download/v0.15.1/typst-aarch64-pc-windows-msvc.zip
+      size:  21246627
+      score: 45
+    win/amd64:
+      name:  typst-x86_64-pc-windows-msvc.zip
+      url:   https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-pc-windows-msvc.zip
+      size:  22463684
+      score: 45
