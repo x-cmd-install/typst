@@ -1,52 +1,52 @@
 # typst
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 A markup-based typesetting system that is powerful and easy to learn.
 
-![typst](https://repo.x-cmd.io/typst.svg)
+![typst](https://repo.x-cmd.io/typst.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install typst
 ```
 
-## Code insight
+## 代码规模
 
-Total: **113,630** lines of code across **442** files in the top 5 languages.
+合计: **113,630** 行代码（覆盖前 5 种语言、共 **442** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Rust | 107,471 | 6,653 | 15,582 | 408 |
 | Css | 2,387 | 51 | 498 | 3 |
 | JavaScript | 1,476 | 420 | 244 | 2 |
 | Toml | 1,112 | 29 | 90 | 28 |
 | TypeScript | 584 | 55 | 70 | 1 |
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/typst/typst>
-- **Homepage**: <https://typst.app>
-- **License**: Apache-2.0
+- **上游仓库**: <https://github.com/typst/typst>
+- **官网**: <https://typst.app>
+- **许可证**: Apache-2.0
 
-## Release
+## 发布
 
-- **Latest**: `v0.15.1` (2026-07-17)
-- **Last commit**: 2026-09-09
-- **Assets in release**: 9
+- **最新版本**: `v0.15.1` (2026-07-17)
+- **最近提交**: 2026-09-09
+- **Release 含资产**: 9 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 55,947 · **Forks**: 1,712 · **Open issues**: 4,536 · **Contributors**: 461
+- **Star**: 55,947 · **Fork**: 1,712 · **开放 issue**: 4,536 · **贡献者**: 461
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 30 · **Merged PRs**: 2522 · **Open PRs**: 69 · **Closed issues**: 3313 · **Open issues**: 1223 · **Commits**: 4885
+- **发布数**: 30 · **已合并 PR**: 2522 · **开放 PR**: 69 · **已关闭 issue**: 3313 · **开放 issue**: 1223 · **提交数**: 4885
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 19 | 27 | 21 | 34 | 32 |
 | last60d | 2026-07-12 | 1 | 46 | 34 | 46 | 65 | 68 |
@@ -55,10 +55,10 @@ Total: **113,630** lines of code across **442** files in the top 5 languages.
 | 360d | 2025-09-15 | 8 | 629 | 66 | 554 | 430 | 923 |
 | last720d | 2024-09-20 | 14 | 1266 | 69 | 1260 | 824 | 1657 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [typst-aarch64-apple-darwin.tar.xz](https://github.com/typst/typst/releases/download/v0.15.1/typst-aarch64-apple-darwin.tar.xz) | 13.8 MiB | `native/darwin/arm64` |
 | [typst-aarch64-pc-windows-msvc.zip](https://github.com/typst/typst/releases/download/v0.15.1/typst-aarch64-pc-windows-msvc.zip) | 20.3 MiB | `native/win/arm64` |
 | [typst-aarch64-unknown-linux-musl.tar.xz](https://github.com/typst/typst/releases/download/v0.15.1/typst-aarch64-unknown-linux-musl.tar.xz) | 15.5 MiB | `native/linux/arm64/musl` |
@@ -69,12 +69,12 @@ Total: **113,630** lines of code across **442** files in the top 5 languages.
 | [typst-x86_64-pc-windows-msvc.zip](https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-pc-windows-msvc.zip) | 21.4 MiB | `native/win/x64` |
 | [typst-x86_64-unknown-linux-musl.tar.xz](https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-unknown-linux-musl.tar.xz) | 16.7 MiB | `native/linux/x64/musl` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **132** distros on [repology.org](https://repology.org/project/typst). **47** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/typst) 上共有 **132** 个发行版报告此项目。**47** 个 ✅ 已是最新上游版本，**75** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Arch | `0.15.1` | ✅ latest |
 | Homebrew | `0.15.1` | ✅ latest |
 | Nix unstable | `0.15.1` | ✅ latest |
@@ -82,13 +82,13 @@ Reported by **132** distros on [repology.org](https://repology.org/project/typst
 | Alpine edge | `0.15.1` | ✅ latest |
 | openSUSE Tumbleweed | `0.15.0` | ⚠️ outdated |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `typst` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+typst 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `typst` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/typst.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/typst.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:09:27Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:09:28Z._
