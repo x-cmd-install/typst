@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.15.1"
   latestRelease: "v0.15.1"
   latestPrerelease: "v0.15.0-rc.1"
-  collectedAt: 2026-09-10T21:09:06Z
+  collectedAt: 2026-09-10T22:41:50Z
 timeline:
   created: 2019-09-24
   lastCommit: 2026-09-09
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-07-17
   lastPrerelease: 2026-06-09
 popularity:
-  star: 55947
+  star: 55949
   watcher: 139
   fork: 1712
   release: 30
   contributor: 461
   pullRequest: 3238
-  issue: 4536
+  issue: 4537
 language:
   Rust: 5312661
   Typst: 902001
@@ -37,7 +37,7 @@ recent:
     mergedPR: 19
     openPR: 27
     closedIssue: 21
-    openIssue: 34
+    openIssue: 35
     commit: 32
   last60d:
     since: 2026-07-12
@@ -45,7 +45,7 @@ recent:
     mergedPR: 46
     openPR: 34
     closedIssue: 46
-    openIssue: 65
+    openIssue: 66
     commit: 68
   last90d:
     since: 2026-06-12
@@ -53,7 +53,7 @@ recent:
     mergedPR: 76
     openPR: 43
     closedIssue: 89
-    openIssue: 101
+    openIssue: 102
     commit: 107
   last180d:
     since: 2026-03-14
@@ -61,7 +61,7 @@ recent:
     mergedPR: 257
     openPR: 54
     closedIssue: 225
-    openIssue: 216
+    openIssue: 217
     commit: 390
   last360d:
     since: 2025-09-15
@@ -69,7 +69,7 @@ recent:
     mergedPR: 629
     openPR: 66
     closedIssue: 554
-    openIssue: 430
+    openIssue: 431
     commit: 923
   last720d:
     since: 2024-09-20
@@ -77,18 +77,18 @@ recent:
     mergedPR: 1266
     openPR: 69
     closedIssue: 1260
-    openIssue: 824
+    openIssue: 825
     commit: 1657
 total:
   release: 30
   mergedPR: 2522
   openPR: 69
   closedIssue: 3313
-  openIssue: 1223
+  openIssue: 1224
   commit: 4885
 ---
 path: /home/runner/.x-repo/github.com/typst/typst
-collectedAt: 2026-09-10T21:09:19Z
+collectedAt: 2026-09-10T22:42:01Z
 loc:
   Rust:
     code: 107471
