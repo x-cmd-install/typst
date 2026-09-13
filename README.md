@@ -14,11 +14,11 @@ x install typst
 
 ## Code insight
 
-Total: **113,630** lines of code across **442** files in the top 5 languages.
+Total: **113,742** lines of code across **442** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 107,471 | 6,653 | 15,582 | 408 |
+| Rust | 107,583 | 6,657 | 15,601 | 408 |
 | Css | 2,387 | 51 | 498 | 3 |
 | JavaScript | 1,476 | 420 | 244 | 2 |
 | Toml | 1,112 | 29 | 90 | 28 |
@@ -33,27 +33,27 @@ Total: **113,630** lines of code across **442** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.15.1` (2026-07-17)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-12
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 55,971 · **Forks**: 1,714 · **Open issues**: 4,539 · **Contributors**: 461
+- **Stars**: 55,985 · **Forks**: 1,714 · **Open issues**: 4,539 · **Contributors**: 461
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 2522 · **Open PRs**: 69 · **Closed issues**: 3315 · **Open issues**: 1224 · **Commits**: 4885
+- **Releases**: 30 · **Merged PRs**: 2523 · **Open PRs**: 69 · **Closed issues**: 3316 · **Open issues**: 1223 · **Commits**: 4886
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 0 | 19 | 25 | 20 | 34 | 32 |
-| last60d | 2026-07-14 | 1 | 42 | 34 | 48 | 66 | 68 |
-| 90d | 2026-06-14 | 2 | 74 | 42 | 91 | 99 | 107 |
-| last180d | 2026-03-16 | 3 | 255 | 54 | 223 | 217 | 390 |
-| 360d | 2025-09-17 | 8 | 629 | 66 | 555 | 428 | 923 |
-| last720d | 2024-09-22 | 14 | 1259 | 69 | 1258 | 823 | 1657 |
+| 30d | 2026-08-14 | 0 | 20 | 24 | 20 | 32 | 27 |
+| last60d | 2026-07-15 | 1 | 42 | 34 | 47 | 66 | 59 |
+| 90d | 2026-06-15 | 2 | 75 | 42 | 89 | 99 | 105 |
+| last180d | 2026-03-17 | 3 | 255 | 54 | 223 | 216 | 379 |
+| 360d | 2025-09-18 | 8 | 628 | 66 | 556 | 425 | 908 |
+| last720d | 2024-09-23 | 14 | 1257 | 69 | 1258 | 821 | 1653 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T05:54:19Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T06:15:04Z._
