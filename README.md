@@ -38,7 +38,7 @@ Total: **113,742** lines of code across **442** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 55,985 · **Forks**: 1,714 · **Open issues**: 4,539 · **Contributors**: 461
+- **Stars**: 56,004 · **Forks**: 1,715 · **Open issues**: 4,539 · **Contributors**: 461
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **113,742** lines of code across **442** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 20 | 24 | 20 | 32 | 27 |
-| last60d | 2026-07-15 | 1 | 42 | 34 | 47 | 66 | 59 |
-| 90d | 2026-06-15 | 2 | 75 | 42 | 89 | 99 | 105 |
-| last180d | 2026-03-17 | 3 | 255 | 54 | 223 | 216 | 379 |
-| 360d | 2025-09-18 | 8 | 628 | 66 | 556 | 425 | 908 |
-| last720d | 2024-09-23 | 14 | 1257 | 69 | 1258 | 821 | 1653 |
+| 30d | 2026-08-15 | 0 | 19 | 24 | 20 | 32 | 27 |
+| last60d | 2026-07-16 | 1 | 39 | 33 | 46 | 65 | 59 |
+| 90d | 2026-06-16 | 1 | 75 | 42 | 89 | 95 | 105 |
+| last180d | 2026-03-18 | 3 | 252 | 54 | 220 | 215 | 379 |
+| 360d | 2025-09-19 | 8 | 626 | 66 | 553 | 424 | 908 |
+| last720d | 2024-09-24 | 14 | 1252 | 69 | 1255 | 821 | 1653 |
 
 ## Release assets
 
@@ -69,19 +69,6 @@ Total: **113,742** lines of code across **442** files in the top 5 languages.
 | [typst-x86_64-pc-windows-msvc.zip](https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-pc-windows-msvc.zip) | 21.4 MiB | `native/win/x64` |
 | [typst-x86_64-unknown-linux-musl.tar.xz](https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-unknown-linux-musl.tar.xz) | 16.7 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **132** distros on [repology.org](https://repology.org/project/typst). **47** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `0.15.1` | ✅ latest |
-| Homebrew | `0.15.1` | ✅ latest |
-| Nix unstable | `0.15.1` | ✅ latest |
-| Void | `0.15.1` | ✅ latest |
-| Alpine edge | `0.15.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.15.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `typst` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -91,4 +78,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:15:04Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:36:55Z._
