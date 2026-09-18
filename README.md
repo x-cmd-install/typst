@@ -33,27 +33,27 @@ Total: **113,742** lines of code across **442** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.15.1` (2026-07-17)
-- **Last commit**: 2026-09-12
+- **Last commit**: 2026-09-17
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 56,069 · **Forks**: 1,714 · **Open issues**: 4,543 · **Contributors**: 461
+- **Stars**: 56,089 · **Forks**: 1,716 · **Open issues**: 4,544 · **Contributors**: 461
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 2523 · **Open PRs**: 71 · **Closed issues**: 3316 · **Open issues**: 1227 · **Commits**: 4886
+- **Releases**: 30 · **Merged PRs**: 2525 · **Open PRs**: 67 · **Closed issues**: 3316 · **Open issues**: 1228 · **Commits**: 4888
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 0 | 16 | 26 | 18 | 33 | 27 |
-| last60d | 2026-07-19 | 0 | 35 | 35 | 43 | 66 | 59 |
-| 90d | 2026-06-19 | 1 | 70 | 44 | 85 | 92 | 105 |
-| last180d | 2026-03-21 | 3 | 247 | 56 | 218 | 216 | 379 |
-| 360d | 2025-09-22 | 8 | 625 | 68 | 545 | 428 | 908 |
-| last720d | 2024-09-27 | 14 | 1234 | 71 | 1244 | 821 | 1627 |
+| 30d | 2026-08-19 | 0 | 16 | 22 | 18 | 32 | 29 |
+| last60d | 2026-07-20 | 0 | 37 | 31 | 43 | 66 | 61 |
+| 90d | 2026-06-20 | 1 | 71 | 40 | 84 | 93 | 107 |
+| last180d | 2026-03-22 | 3 | 249 | 52 | 218 | 216 | 381 |
+| 360d | 2025-09-23 | 8 | 626 | 64 | 544 | 428 | 910 |
+| last720d | 2024-09-28 | 14 | 1233 | 67 | 1242 | 821 | 1619 |
 
 ## Release assets
 
@@ -78,4 +78,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T06:33:21Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T06:19:30Z._
