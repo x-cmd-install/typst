@@ -38,22 +38,22 @@ Total: **115,156** lines of code across **452** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 56,774 · **Forks**: 1,769 · **Open issues**: 4,617 · **Contributors**: 469
+- **Stars**: 56,795 · **Forks**: 1,772 · **Open issues**: 4,622 · **Contributors**: 469
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 2576 · **Open PRs**: 56 · **Closed issues**: 3357 · **Open issues**: 1260 · **Commits**: 4958
+- **Releases**: 30 · **Merged PRs**: 2576 · **Open PRs**: 56 · **Closed issues**: 3361 · **Open issues**: 1261 · **Commits**: 4958
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 22 | 19 | 16 | 47 | 33 |
-| last60d | 2026-08-24 | 0 | 58 | 24 | 45 | 73 | 86 |
-| 90d | 2026-07-25 | 0 | 81 | 29 | 66 | 101 | 123 |
-| last180d | 2026-04-26 | 3 | 254 | 39 | 202 | 211 | 342 |
-| 360d | 2025-10-28 | 5 | 547 | 53 | 493 | 418 | 822 |
-| last720d | 2024-11-02 | 11 | 1195 | 55 | 1163 | 798 | 1579 |
+| 30d | 2026-09-24 | 0 | 20 | 17 | 19 | 44 | 33 |
+| last60d | 2026-08-25 | 0 | 57 | 24 | 48 | 71 | 86 |
+| 90d | 2026-07-26 | 0 | 79 | 29 | 70 | 101 | 123 |
+| last180d | 2026-04-27 | 3 | 249 | 39 | 205 | 211 | 342 |
+| 360d | 2025-10-29 | 5 | 547 | 53 | 493 | 416 | 822 |
+| last720d | 2024-11-03 | 11 | 1195 | 55 | 1162 | 798 | 1579 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Reported by **133** distros on [repology.org](https://repology.org/project/typst
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `0.15.1` | ✅ latest |
-| Homebrew | `0.15.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `0.15.1` | ✅ latest |
 | Void | `0.15.1` | ✅ latest |
 | Alpine edge | `0.15.1` | ✅ latest |
@@ -91,4 +91,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:57:08Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:41:47Z._
