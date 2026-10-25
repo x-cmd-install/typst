@@ -1,34 +1,22 @@
-- repo: homebrew
+- repo: gnuguix
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.0
+  origversion: null
+  status: outdated
+  summary: LaTeX-like typesetting system
+- repo: openpkg_current
   srcname: typst
   visiblename: typst
-  version: HEAD
+  version: 0.14.2.20251212
   origversion: null
-  status: rolling
-  summary: Markup-based typesetting system
-- repo: openbsd
-  srcname: textproc/typst
-  binname: typst
-  visiblename: textproc/typst
-  version: 0.15.1
-  origversion: null
-  status: newest
-  summary: markup-based typesetting system
-  maintainers:
-    - semarie@kapouay.eu.org
+  status: outdated
+  summary: Typsetting System
+  licenses:
+    - Apache
   categories:
-    - textproc
-- repo: aosc
-  srcname: app-doc/typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1
-  status: newest
-  summary: A markup-based typsetting system
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - doc
+    - Text
 - repo: alpine_3_20
   subrepo: community
   srcname: typst
@@ -40,17 +28,6 @@
   summary: New markup-based typesetting system that is powerful and easy to learn
   maintainers:
     - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
   licenses:
     - Apache-2.0
 - repo: alpine_3_20
@@ -462,6 +439,29 @@
     - Apache-2.0
   categories:
     - Text tools
+- repo: aosc
+  srcname: app-doc/typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1
+  status: newest
+  summary: A markup-based typsetting system
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - doc
+- repo: arch
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-2
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
 - repo: aur
   srcname: typst-git
   binname: typst-git
@@ -611,22 +611,6 @@
     - ZLIB
   categories:
     - app-text
-- repo: openmandriva_rolling
-  subrepo: unsupported/release
-  srcname: typst
-  binnames:
-    - typst
-  visiblename: typst
-  version: 0.14.2
-  origversion: 0.14.2-1
-  status: outdated
-  summary: A new markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - azure.grade9592@eagereverest.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - Terminal/Utility
 - repo: gentoo_ovl_guru
   srcname: app-text/typst
   visiblename: app-text/typst
@@ -651,14 +635,6 @@
     - ZLIB
   categories:
     - app-text
-- repo: gnuguix
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.0
-  origversion: null
-  status: outdated
-  summary: LaTeX-like typesetting system
 - repo: haikuports_master
   srcname: app-text/typst
   visiblename: app-text/typst
@@ -673,6 +649,13 @@
   version: 0.15.1
   origversion: null
   status: newest
+  summary: Markup-based typesetting system
+- repo: homebrew
+  srcname: typst
+  visiblename: typst
+  version: HEAD
+  origversion: null
+  status: rolling
   summary: Markup-based typesetting system
 - repo: kaos
   subrepo: main
@@ -759,6 +742,20 @@
     - ZLIB
   categories:
     - app-text
+- repo: terra_rawhide
+  srcname: rust-typst
+  binname: typst-bash-completion
+  visiblename: typst-bash-completion
+  version: 0.15.1
+  origversion: 0.15.1-1.fcrawhide
+  status: newest
+  summary: Bash completion for typst
+  maintainers:
+    - mado@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: liguros_develop
   srcname: app-text/typst
   visiblename: app-text/typst
@@ -965,6 +962,18 @@
     - faukah@github
   licenses:
     - Apache-2.0
+- repo: openbsd
+  srcname: textproc/typst
+  binname: typst
+  visiblename: textproc/typst
+  version: 0.15.1
+  origversion: null
+  status: newest
+  summary: markup-based typesetting system
+  maintainers:
+    - semarie@kapouay.eu.org
+  categories:
+    - textproc
 - repo: openmandriva_6_0
   subrepo: unsupported/updates
   srcname: typst
@@ -977,6 +986,22 @@
   summary: A new markup-based typesetting system that is powerful and easy to learn
   maintainers:
     - rugyada@gmail.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Terminal/Utility
+- repo: openmandriva_rolling
+  subrepo: unsupported/release
+  srcname: typst
+  binnames:
+    - typst
+  visiblename: typst
+  version: 0.14.2
+  origversion: 0.14.2-1
+  status: outdated
+  summary: A new markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - azure.grade9592@eagereverest.com
   licenses:
     - Apache-2.0
   categories:
@@ -997,17 +1022,6 @@
     - Apache-2.0
   categories:
     - Terminal/Utility
-- repo: openpkg_current
-  srcname: typst
-  visiblename: typst
-  version: 0.14.2.20251212
-  origversion: null
-  status: outdated
-  summary: Typsetting System
-  licenses:
-    - Apache
-  categories:
-    - Text
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: typst
@@ -1309,6 +1323,20 @@
     - ((MIT OR Apache-2.0) AND Unicode-3.0) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND (MIT AND (MIT OR Apache-2.0)) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR CC0-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
+- repo: terra_rawhide
+  srcname: rust-typst
+  binname: rust-typst-fish-completion
+  visiblename: rust-typst-fish-completion
+  version: 0.13.1
+  origversion: 0.13.1-1.fcrawhide
+  status: legacy
+  summary: Fish completion for typst
+  maintainers:
+    - mado@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: terra_40
   srcname: rust-typst
   binname: typst-debuginfo
@@ -1591,20 +1619,6 @@
     - Unspecified
 - repo: terra_rawhide
   srcname: rust-typst
-  binname: rust-typst-fish-completion
-  visiblename: rust-typst-fish-completion
-  version: 0.13.1
-  origversion: 0.13.1-1.fcrawhide
-  status: legacy
-  summary: Fish completion for typst
-  maintainers:
-    - mado@fyralabs.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-typst
   binname: rust-typst-zsh-completion
   visiblename: rust-typst-zsh-completion
   version: 0.13.1
@@ -1671,20 +1685,6 @@
     - mado@fyralabs.com
   licenses:
     - ((MIT OR Apache-2.0) AND Unicode-3.0) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND (MIT AND (MIT OR Apache-2.0)) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR CC0-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-typst
-  binname: typst-bash-completion
-  visiblename: typst-bash-completion
-  version: 0.15.1
-  origversion: 0.15.1-1.fcrawhide
-  status: newest
-  summary: Bash completion for typst
-  maintainers:
-    - mado@fyralabs.com
-  licenses:
-    - Apache-2.0
   categories:
     - Unspecified
 - repo: terra_rawhide
