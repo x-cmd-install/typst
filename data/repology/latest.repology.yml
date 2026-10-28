@@ -1,3 +1,10 @@
+- repo: crates_io
+  srcname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: null
+  status: newest
+  summary: A new markup-based typesetting system that is powerful and easy to learn.
 - repo: alpine_3_20
   subrepo: community
   srcname: typst
@@ -115,13 +122,6 @@
     - lauren@selfisekai.rocks
   licenses:
     - Apache-2.0
-- repo: crates_io
-  srcname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: null
-  status: newest
-  summary: A new markup-based typesetting system that is powerful and easy to learn.
 - repo: alpine_3_21
   subrepo: community
   srcname: typst
