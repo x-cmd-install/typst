@@ -1,10 +1,3 @@
-- repo: crates_io
-  srcname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: null
-  status: newest
-  summary: A new markup-based typesetting system that is powerful and easy to learn.
 - repo: alpine_3_20
   subrepo: community
   srcname: typst
@@ -380,15 +373,6 @@
   summary: Fish completions for typst
   maintainers:
     - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: scoop
-  subrepo: main
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: null
-  status: newest
   licenses:
     - Apache-2.0
 - repo: alpine_edge
@@ -553,6 +537,13 @@
   summary: A markup-based typesetting system that is powerful and easy to learn.
   licenses:
     - Apache-2.0
+- repo: crates_io
+  srcname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: null
+  status: newest
+  summary: A new markup-based typesetting system that is powerful and easy to learn.
 - repo: exherbo
   subrepo: mixi
   srcname: app-text/typst
@@ -740,20 +731,6 @@
     - ZLIB
   categories:
     - app-text
-- repo: solus
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: null
-  status: newest
-  summary: A new markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - Apache-2.0
-  categories:
-    - office
 - repo: liguros_develop
   srcname: app-text/typst
   visiblename: app-text/typst
@@ -1120,6 +1097,29 @@
     - pkgsrc-users@netbsd.org
   categories:
     - textproc
+- repo: scoop
+  subrepo: main
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: solus
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: null
+  status: newest
+  summary: A new markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - Apache-2.0
+  categories:
+    - office
 - repo: solus
   srcname: typst
   binname: typst-dbginfo
