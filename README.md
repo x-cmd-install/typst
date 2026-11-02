@@ -38,7 +38,7 @@ Total: **115,624** lines of code across **452** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 56,925 · **Forks**: 1,781 · **Open issues**: 4,631 · **Contributors**: 469
+- **Stars**: 56,941 · **Forks**: 1,781 · **Open issues**: 4,631 · **Contributors**: 469
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **115,624** lines of code across **452** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 29 | 17 | 14 | 40 | 37 |
-| last60d | 2026-09-02 | 0 | 57 | 26 | 39 | 74 | 85 |
-| 90d | 2026-08-03 | 0 | 83 | 33 | 61 | 99 | 119 |
-| last180d | 2026-05-05 | 3 | 252 | 43 | 195 | 206 | 335 |
-| 360d | 2025-11-06 | 5 | 547 | 55 | 469 | 407 | 808 |
-| last720d | 2024-11-11 | 11 | 1199 | 58 | 1154 | 794 | 1592 |
+| 30d | 2026-10-03 | 0 | 29 | 17 | 14 | 40 | 37 |
+| last60d | 2026-09-03 | 0 | 55 | 26 | 38 | 74 | 85 |
+| 90d | 2026-08-04 | 0 | 82 | 33 | 61 | 99 | 119 |
+| last180d | 2026-05-06 | 3 | 251 | 43 | 192 | 205 | 335 |
+| 360d | 2025-11-07 | 5 | 543 | 55 | 467 | 405 | 808 |
+| last720d | 2024-11-12 | 11 | 1197 | 58 | 1151 | 794 | 1592 |
 
 ## Release assets
 
@@ -71,7 +71,7 @@ Total: **115,624** lines of code across **452** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **133** distros on [repology.org](https://repology.org/project/typst). **51** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **133** distros on [repology.org](https://repology.org/project/typst). **49** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,4 +91,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:19:32Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:25:45Z._
