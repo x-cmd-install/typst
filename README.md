@@ -38,22 +38,22 @@ Total: **115,624** lines of code across **452** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 56,941 · **Forks**: 1,781 · **Open issues**: 4,631 · **Contributors**: 469
+- **Stars**: 56,958 · **Forks**: 1,783 · **Open issues**: 4,634 · **Contributors**: 469
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 2589 · **Open PRs**: 59 · **Closed issues**: 3364 · **Open issues**: 1267 · **Commits**: 4982
+- **Releases**: 30 · **Merged PRs**: 2589 · **Open PRs**: 59 · **Closed issues**: 3366 · **Open issues**: 1268 · **Commits**: 4982
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 29 | 17 | 14 | 40 | 37 |
-| last60d | 2026-09-03 | 0 | 55 | 26 | 38 | 74 | 85 |
-| 90d | 2026-08-04 | 0 | 82 | 33 | 61 | 99 | 119 |
-| last180d | 2026-05-06 | 3 | 251 | 43 | 192 | 205 | 335 |
-| 360d | 2025-11-07 | 5 | 543 | 55 | 467 | 405 | 808 |
-| last720d | 2024-11-12 | 11 | 1197 | 58 | 1151 | 794 | 1592 |
+| 30d | 2026-10-04 | 0 | 29 | 17 | 16 | 39 | 37 |
+| last60d | 2026-09-04 | 0 | 55 | 26 | 39 | 74 | 85 |
+| 90d | 2026-08-05 | 0 | 82 | 33 | 61 | 98 | 119 |
+| last180d | 2026-05-07 | 3 | 249 | 43 | 193 | 206 | 335 |
+| 360d | 2025-11-08 | 5 | 541 | 55 | 465 | 403 | 808 |
+| last720d | 2024-11-13 | 11 | 1194 | 58 | 1151 | 795 | 1589 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:25:45Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:22:33Z._
