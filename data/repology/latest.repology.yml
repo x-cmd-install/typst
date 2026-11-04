@@ -1,24 +1,413 @@
-- repo: crates_io
+- repo: alpine_3_20
+  subrepo: community
   srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.11.1
+  origversion: 0.11.1-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: typst
+  binname: typst-bash-completion
+  visiblename: typst-bash-completion
+  version: 0.11.1
+  origversion: 0.11.1-r0
+  status: outdated
+  summary: Bash completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: typst
+  binname: typst-doc
+  visiblename: typst-doc
+  version: 0.11.1
+  origversion: 0.11.1-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: typst
+  binname: typst-fish-completion
+  visiblename: typst-fish-completion
+  version: 0.11.1
+  origversion: 0.11.1-r0
+  status: outdated
+  summary: Fish completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: typst
+  binname: typst-zsh-completion
+  visiblename: typst-zsh-completion
+  version: 0.11.1
+  origversion: 0.11.1-r0
+  status: outdated
+  summary: Zsh completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.12.0
+  origversion: 0.12.0-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: typst
+  binname: typst-bash-completion
+  visiblename: typst-bash-completion
+  version: 0.12.0
+  origversion: 0.12.0-r0
+  status: outdated
+  summary: Bash completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: typst
+  binname: typst-doc
+  visiblename: typst-doc
+  version: 0.12.0
+  origversion: 0.12.0-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: typst
+  binname: typst-fish-completion
+  visiblename: typst-fish-completion
+  version: 0.12.0
+  origversion: 0.12.0-r0
+  status: outdated
+  summary: Fish completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: typst
+  binname: typst-zsh-completion
+  visiblename: typst-zsh-completion
+  version: 0.12.0
+  origversion: 0.12.0-r0
+  status: outdated
+  summary: Zsh completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.13.1
+  origversion: 0.13.1-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: typst
+  binname: typst-bash-completion
+  visiblename: typst-bash-completion
+  version: 0.13.1
+  origversion: 0.13.1-r0
+  status: outdated
+  summary: Bash completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: typst
+  binname: typst-doc
+  visiblename: typst-doc
+  version: 0.13.1
+  origversion: 0.13.1-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: typst
+  binname: typst-fish-completion
+  visiblename: typst-fish-completion
+  version: 0.13.1
+  origversion: 0.13.1-r0
+  status: outdated
+  summary: Fish completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: typst
+  binname: typst-zsh-completion
+  visiblename: typst-zsh-completion
+  version: 0.13.1
+  origversion: 0.13.1-r0
+  status: outdated
+  summary: Zsh completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: typst
+  binname: typst-bash-completion
+  visiblename: typst-bash-completion
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: Bash completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: typst
+  binname: typst-doc
+  visiblename: typst-doc
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: typst
+  binname: typst-fish-completion
+  visiblename: typst-fish-completion
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: Fish completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.8.0
+  origversion: 1:0.8.0-1
+  status: outdated
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache
+- repo: alpine_3_23
+  subrepo: community
+  srcname: typst
+  binname: typst-zsh-completion
+  visiblename: typst-zsh-completion
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: Zsh completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: typst
+  binname: typst-bash-completion
+  visiblename: typst-bash-completion
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: Bash completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: typst
+  binname: typst-doc
+  visiblename: typst-doc
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: typst
+  binname: typst-fish-completion
+  visiblename: typst-fish-completion
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: Fish completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: typst
+  binname: typst-zsh-completion
+  visiblename: typst-zsh-completion
+  version: 0.14.2
+  origversion: 0.14.2-r0
+  status: outdated
+  summary: Zsh completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: newest
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: typst
+  binname: typst-bash-completion
+  visiblename: typst-bash-completion
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: newest
+  summary: Bash completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: typst
+  binname: typst-doc
+  visiblename: typst-doc
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: newest
+  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: typst
+  binname: typst-fish-completion
+  visiblename: typst-fish-completion
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: newest
+  summary: Fish completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: typst
+  binname: typst-zsh-completion
+  visiblename: typst-zsh-completion
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: newest
+  summary: Zsh completions for typst
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: scoop
+  subrepo: main
+  binname: typst
   visiblename: typst
   version: 0.15.1
   origversion: null
   status: newest
-  summary: A new markup-based typesetting system that is powerful and easy to learn.
-- repo: terra_41
-  srcname: rust-typst
-  binname: rust-typst-zsh-completion
-  visiblename: rust-typst-zsh-completion
-  version: 0.13.1
-  origversion: 0.13.1-1.fc41
-  status: outdated
-  summary: Zsh completion for typst
-  maintainers:
-    - mado@fyralabs.com
   licenses:
     - Apache-2.0
-  categories:
-    - Unspecified
 - repo: alt_p11
   srcname: typst
   binnames:
@@ -35,410 +424,6 @@
     - Apache-2.0
   categories:
     - Text tools
-- repo: alpine_3_20
-  subrepo: community
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.11.1
-  origversion: 0.11.1-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: typst
-  binname: typst-bash-completion
-  visiblename: typst-bash-completion
-  version: 0.11.1
-  origversion: 0.11.1-r0
-  status: outdated
-  summary: Bash completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: typst
-  binname: typst-doc
-  visiblename: typst-doc
-  version: 0.11.1
-  origversion: 0.11.1-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: typst
-  binname: typst-fish-completion
-  visiblename: typst-fish-completion
-  version: 0.11.1
-  origversion: 0.11.1-r0
-  status: outdated
-  summary: Fish completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: typst
-  binname: typst-zsh-completion
-  visiblename: typst-zsh-completion
-  version: 0.11.1
-  origversion: 0.11.1-r0
-  status: outdated
-  summary: Zsh completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.12.0
-  origversion: 0.12.0-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: typst
-  binname: typst-bash-completion
-  visiblename: typst-bash-completion
-  version: 0.12.0
-  origversion: 0.12.0-r0
-  status: outdated
-  summary: Bash completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: typst
-  binname: typst-doc
-  visiblename: typst-doc
-  version: 0.12.0
-  origversion: 0.12.0-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: typst
-  binname: typst-fish-completion
-  visiblename: typst-fish-completion
-  version: 0.12.0
-  origversion: 0.12.0-r0
-  status: outdated
-  summary: Fish completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: typst
-  binname: typst-zsh-completion
-  visiblename: typst-zsh-completion
-  version: 0.12.0
-  origversion: 0.12.0-r0
-  status: outdated
-  summary: Zsh completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.13.1
-  origversion: 0.13.1-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: typst
-  binname: typst-bash-completion
-  visiblename: typst-bash-completion
-  version: 0.13.1
-  origversion: 0.13.1-r0
-  status: outdated
-  summary: Bash completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: typst
-  binname: typst-doc
-  visiblename: typst-doc
-  version: 0.13.1
-  origversion: 0.13.1-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: typst
-  binname: typst-fish-completion
-  visiblename: typst-fish-completion
-  version: 0.13.1
-  origversion: 0.13.1-r0
-  status: outdated
-  summary: Fish completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: typst
-  binname: typst-zsh-completion
-  visiblename: typst-zsh-completion
-  version: 0.13.1
-  origversion: 0.13.1-r0
-  status: outdated
-  summary: Zsh completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: typst
-  binname: typst-bash-completion
-  visiblename: typst-bash-completion
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: Bash completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: typst
-  binname: typst-doc
-  visiblename: typst-doc
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: typst
-  binname: typst-fish-completion
-  visiblename: typst-fish-completion
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: Fish completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: typst
-  binname: typst-zsh-completion
-  visiblename: typst-zsh-completion
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: Zsh completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: typst
-  binname: typst-bash-completion
-  visiblename: typst-bash-completion
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: Bash completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: typst
-  binname: typst-doc
-  visiblename: typst-doc
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: typst
-  binname: typst-fish-completion
-  visiblename: typst-fish-completion
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: Fish completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: typst
-  binname: typst-zsh-completion
-  visiblename: typst-zsh-completion
-  version: 0.14.2
-  origversion: 0.14.2-r0
-  status: outdated
-  summary: Zsh completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: newest
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: typst
-  binname: typst-bash-completion
-  visiblename: typst-bash-completion
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: newest
-  summary: Bash completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: typst
-  binname: typst-doc
-  visiblename: typst-doc
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: newest
-  summary: New markup-based typesetting system that is powerful and easy to learn (documentation)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: typst
-  binname: typst-fish-completion
-  visiblename: typst-fish-completion
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: newest
-  summary: Fish completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: typst
-  binname: typst-zsh-completion
-  visiblename: typst-zsh-completion
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: newest
-  summary: Zsh completions for typst
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: solus
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: null
-  status: newest
-  summary: A new markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - Apache-2.0
-  categories:
-    - office
 - repo: altsisyphus
   srcname: typst
   binnames:
@@ -545,6 +530,17 @@
   summary: Markup-based typesetting system (manual pages)
   licenses:
     - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.8.0
+  origversion: 1:0.8.0-1
+  status: outdated
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache
 - repo: chimera
   subrepo: user
   srcname: typst
@@ -572,6 +568,27 @@
   summary: A markup-based typesetting system that is powerful and easy to learn.
   licenses:
     - Apache-2.0
+- repo: crates_io
+  srcname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: null
+  status: newest
+  summary: A new markup-based typesetting system that is powerful and easy to learn.
+- repo: solus
+  srcname: typst
+  binname: typst-dbginfo
+  visiblename: typst-dbginfo
+  version: 0.15.1
+  origversion: null
+  status: newest
+  summary: Debug symbols for typst
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - Apache-2.0
+  categories:
+    - debug
 - repo: exherbo
   subrepo: mixi
   srcname: app-text/typst
@@ -759,6 +776,20 @@
     - ZLIB
   categories:
     - app-text
+- repo: solus
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: null
+  status: newest
+  summary: A new markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - Apache-2.0
+  categories:
+    - office
 - repo: liguros_develop
   srcname: app-text/typst
   visiblename: app-text/typst
@@ -783,20 +814,6 @@
     - ZLIB
   categories:
     - app-text
-- repo: solus
-  srcname: typst
-  binname: typst-dbginfo
-  visiblename: typst-dbginfo
-  version: 0.15.1
-  origversion: null
-  status: newest
-  summary: Debug symbols for typst
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - Apache-2.0
-  categories:
-    - debug
 - repo: macports
   srcname: textproc/typst
   binname: typst
@@ -839,28 +856,6 @@
     - Apache-2.0
   categories:
     - Publishing
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.8.0
-  origversion: 1:0.8.0-1
-  status: outdated
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.8.0
-  origversion: 1:0.8.0-1
-  status: outdated
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache
 - repo: manjaro_unstable
   subrepo: extra
   srcname: typst
@@ -1139,15 +1134,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - textproc
-- repo: scoop
-  subrepo: main
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: spack
   srcname: typst
   visiblename: typst
@@ -1429,6 +1415,20 @@
   origversion: 0.13.1-1.fc41
   status: outdated
   summary: Fish completion for typst
+  maintainers:
+    - mado@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-typst
+  binname: rust-typst-zsh-completion
+  visiblename: rust-typst-zsh-completion
+  version: 0.13.1
+  origversion: 0.13.1-1.fc41
+  status: outdated
+  summary: Zsh completion for typst
   maintainers:
     - mado@fyralabs.com
   licenses:
