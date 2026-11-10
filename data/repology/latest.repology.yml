@@ -1,3 +1,36 @@
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-2
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-2
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-2
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_20
   subrepo: community
   srcname: typst
@@ -373,6 +406,19 @@
   summary: Fish completions for typst
   maintainers:
     - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: typst
+  visiblename: typst
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - pol.dellaiera@protonmail.com
+    - figsoda@pm.me
+    - chad@redpilled.dev
   licenses:
     - Apache-2.0
 - repo: alpine_edge
@@ -532,6 +578,20 @@
   summary: Markup-based typesetting system (manual pages)
   licenses:
     - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: typst
+  visiblename: typst
+  version: 0.13.1
+  origversion: null
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - pol.dellaiera@protonmail.com
+    - figsoda@pm.me
+    - chad@redpilled.dev
+    - rosssmyth@github
+  licenses:
+    - Apache-2.0
 - repo: chimera
   subrepo: user
   srcname: typst
@@ -614,20 +674,6 @@
     - ZLIB
   categories:
     - app-text
-- repo: terra_41
-  srcname: rust-typst
-  binname: rust-typst-zsh-completion
-  visiblename: rust-typst-zsh-completion
-  version: 0.13.1
-  origversion: 0.13.1-1.fc41
-  status: outdated
-  summary: Zsh completion for typst
-  maintainers:
-    - mado@fyralabs.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: gentoo_ovl_guru
   srcname: app-text/typst
   visiblename: app-text/typst
@@ -833,39 +879,6 @@
     - Apache-2.0
   categories:
     - Publishing
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-typst
   binname: mingw-w64-clang-x86_64-typst
@@ -907,33 +920,6 @@
     - pol.dellaiera@protonmail.com
     - figsoda@pm.me
     - chad@redpilled.dev
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: typst
-  visiblename: typst
-  version: 0.12.0
-  origversion: null
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - pol.dellaiera@protonmail.com
-    - figsoda@pm.me
-    - chad@redpilled.dev
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: typst
-  visiblename: typst
-  version: 0.13.1
-  origversion: null
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - pol.dellaiera@protonmail.com
-    - figsoda@pm.me
-    - chad@redpilled.dev
-    - rosssmyth@github
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_11
@@ -1320,20 +1306,6 @@
     - ((MIT OR Apache-2.0) AND Unicode-3.0) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND (MIT AND (MIT OR Apache-2.0)) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR CC0-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
-- repo: terra_rawhide
-  srcname: rust-typst
-  binname: rust-typst-fish-completion
-  visiblename: rust-typst-fish-completion
-  version: 0.13.1
-  origversion: 0.13.1-1.fcrawhide
-  status: legacy
-  summary: Fish completion for typst
-  maintainers:
-    - mado@fyralabs.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: terra_40
   srcname: rust-typst
   binname: typst
@@ -1476,6 +1448,20 @@
     - Unspecified
 - repo: terra_41
   srcname: rust-typst
+  binname: rust-typst-zsh-completion
+  visiblename: rust-typst-zsh-completion
+  version: 0.13.1
+  origversion: 0.13.1-1.fc41
+  status: outdated
+  summary: Zsh completion for typst
+  maintainers:
+    - mado@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-typst
   binname: typst
   visiblename: typst
   version: 0.13.1
@@ -1594,6 +1580,20 @@
   origversion: 0.13.1-1.fcrawhide
   status: legacy
   summary: Bash completion for typst
+  maintainers:
+    - mado@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-typst
+  binname: rust-typst-fish-completion
+  visiblename: rust-typst-fish-completion
+  version: 0.13.1
+  origversion: 0.13.1-1.fcrawhide
+  status: legacy
+  summary: Fish completion for typst
   maintainers:
     - mado@fyralabs.com
   licenses:
