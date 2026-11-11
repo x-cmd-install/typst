@@ -38,22 +38,22 @@ Total: **115,624** lines of code across **452** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 57,086 · **Forks**: 1,791 · **Open issues**: 4,645 · **Contributors**: 469
+- **Stars**: 57,122 · **Forks**: 1,793 · **Open issues**: 4,646 · **Contributors**: 469
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 2589 · **Open PRs**: 65 · **Closed issues**: 3366 · **Open issues**: 1279 · **Commits**: 4982
+- **Releases**: 30 · **Merged PRs**: 2589 · **Open PRs**: 66 · **Closed issues**: 3366 · **Open issues**: 1280 · **Commits**: 4982
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 24 | 16 | 13 | 42 | 28 |
-| last60d | 2026-09-11 | 0 | 45 | 31 | 28 | 77 | 79 |
-| 90d | 2026-08-12 | 0 | 78 | 36 | 56 | 103 | 118 |
-| last180d | 2026-05-14 | 3 | 230 | 48 | 183 | 205 | 318 |
-| 360d | 2025-11-15 | 5 | 526 | 61 | 450 | 405 | 790 |
-| last720d | 2024-11-20 | 11 | 1188 | 64 | 1130 | 802 | 1568 |
+| 30d | 2026-10-12 | 0 | 24 | 17 | 12 | 43 | 28 |
+| last60d | 2026-09-12 | 0 | 44 | 32 | 28 | 78 | 79 |
+| 90d | 2026-08-13 | 0 | 78 | 37 | 56 | 104 | 118 |
+| last180d | 2026-05-15 | 3 | 226 | 49 | 182 | 204 | 318 |
+| 360d | 2025-11-16 | 5 | 523 | 62 | 445 | 405 | 790 |
+| last720d | 2024-11-21 | 11 | 1187 | 65 | 1129 | 802 | 1568 |
 
 ## Release assets
 
@@ -71,7 +71,7 @@ Total: **115,624** lines of code across **452** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **134** distros on [repology.org](https://repology.org/project/typst). **54** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
+Reported by **132** distros on [repology.org](https://repology.org/project/typst). **52** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,4 +91,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:47:26Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:45:03Z._
