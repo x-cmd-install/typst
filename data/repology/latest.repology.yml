@@ -1,36 +1,3 @@
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_20
   subrepo: community
   srcname: typst
@@ -94,6 +61,17 @@
   summary: Zsh completions for typst
   maintainers:
     - lauren@selfisekai.rocks
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: typst
+  binname: typst-bashcomp
+  visiblename: typst-bashcomp
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: newest
+  summary: Markup-based typesetting system (bash completions)
   licenses:
     - Apache-2.0
 - repo: alpine_3_21
@@ -406,19 +384,6 @@
   summary: Fish completions for typst
   maintainers:
     - lauren@selfisekai.rocks
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: typst
-  visiblename: typst
-  version: 0.12.0
-  origversion: null
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - pol.dellaiera@protonmail.com
-    - figsoda@pm.me
-    - chad@redpilled.dev
   licenses:
     - Apache-2.0
 - repo: alpine_edge
@@ -484,17 +449,6 @@
   binname: typst
   visiblename: typst
   version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
   origversion: 1:0.15.1-3
   status: newest
   summary: A markup-based typesetting system for the sciences
@@ -523,17 +477,6 @@
   summary: A markup-based typesetting system for the sciences
   licenses:
     - Apache-2.0
-- repo: artix_testing
-  subrepo: galaxy-gremlins
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-3
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
 - repo: chimera
   subrepo: user
   srcname: typst
@@ -545,15 +488,17 @@
   summary: Markup-based typesetting system
   licenses:
     - Apache-2.0
-- repo: chimera
-  subrepo: user
+- repo: kaos
+  subrepo: main
   srcname: typst
-  binname: typst-bashcomp
-  visiblename: typst-bashcomp
+  binname: typst
+  visiblename: typst
   version: 0.15.1
-  origversion: 0.15.1-r0
+  origversion: 0.15.1-1
   status: newest
-  summary: Markup-based typesetting system (bash completions)
+  summary: New markup-based typesetting system that is powerful and easy to learn.
+  maintainers:
+    - demm@kaosx.us
   licenses:
     - Apache-2.0
 - repo: chimera
@@ -576,20 +521,6 @@
   origversion: 0.15.1-r0
   status: newest
   summary: Markup-based typesetting system (manual pages)
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: typst
-  visiblename: typst
-  version: 0.13.1
-  origversion: null
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - pol.dellaiera@protonmail.com
-    - figsoda@pm.me
-    - chad@redpilled.dev
-    - rosssmyth@github
   licenses:
     - Apache-2.0
 - repo: chimera
@@ -728,19 +659,6 @@
   origversion: null
   status: rolling
   summary: Markup-based typesetting system
-- repo: kaos
-  subrepo: main
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 0.15.1-1
-  status: newest
-  summary: New markup-based typesetting system that is powerful and easy to learn.
-  maintainers:
-    - demm@kaosx.us
-  licenses:
-    - Apache-2.0
 - repo: liguros_stable
   srcname: app-text/typst
   visiblename: app-text/typst
@@ -879,6 +797,39 @@
     - Apache-2.0
   categories:
     - Publishing
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-2
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-2
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-3
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-typst
   binname: mingw-w64-clang-x86_64-typst
@@ -909,6 +860,17 @@
   summary: A markup-based typesetting system for the sciences (mingw-w64)
   licenses:
     - spdx:Apache-2.0
+- repo: parabola
+  subrepo: extra
+  srcname: typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1-2
+  status: newest
+  summary: A markup-based typesetting system for the sciences
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_24_05
   srcname: typst
   visiblename: typst
@@ -920,6 +882,33 @@
     - pol.dellaiera@protonmail.com
     - figsoda@pm.me
     - chad@redpilled.dev
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: typst
+  visiblename: typst
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - pol.dellaiera@protonmail.com
+    - figsoda@pm.me
+    - chad@redpilled.dev
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: typst
+  visiblename: typst
+  version: 0.13.1
+  origversion: null
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
+  maintainers:
+    - pol.dellaiera@protonmail.com
+    - figsoda@pm.me
+    - chad@redpilled.dev
+    - rosssmyth@github
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_11
@@ -1061,17 +1050,6 @@
   summary: Markup-based typesetting system that is powerful and easy to learn
   maintainers:
     - vowstar@gmail.com
-- repo: parabola
-  subrepo: extra
-  srcname: typst
-  binname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: 1:0.15.1-2
-  status: newest
-  summary: A markup-based typesetting system for the sciences
-  licenses:
-    - Apache-2.0
 - repo: pkgsrc_2026_2
   srcname: textproc/typst
   binname: typst
