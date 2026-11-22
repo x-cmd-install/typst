@@ -1,15 +1,38 @@
-- repo: aosc
-  srcname: app-doc/typst
-  binname: typst
+- repo: haikuports_master
+  srcname: app-text/typst
+  visiblename: app-text/typst
+  version: 0.14.2
+  origversion: null
+  status: outdated
+  categories:
+    - app-text
+- repo: homebrew
+  srcname: typst
   visiblename: typst
   version: 0.15.1
-  origversion: 1:0.15.1
+  origversion: null
   status: newest
-  summary: A markup-based typsetting system
+  summary: Markup-based typesetting system
+- repo: homebrew
+  srcname: typst
+  visiblename: typst
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Markup-based typesetting system
+- repo: nix_stable_24_11
+  srcname: typst
+  visiblename: typst
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: New markup-based typesetting system that is powerful and easy to learn
   maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - doc
+    - pol.dellaiera@protonmail.com
+    - figsoda@pm.me
+    - chad@redpilled.dev
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_20
   subrepo: community
   srcname: typst
@@ -432,6 +455,18 @@
     - Apache-2.0
   categories:
     - Text tools
+- repo: aosc
+  srcname: app-doc/typst
+  binname: typst
+  visiblename: typst
+  version: 0.15.1
+  origversion: 1:0.15.1
+  status: newest
+  summary: A markup-based typsetting system
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - doc
 - repo: arch
   subrepo: extra
   srcname: typst
@@ -624,28 +659,6 @@
   origversion: null
   status: newest
   summary: LaTeX-like typesetting system
-- repo: haikuports_master
-  srcname: app-text/typst
-  visiblename: app-text/typst
-  version: 0.14.2
-  origversion: null
-  status: outdated
-  categories:
-    - app-text
-- repo: homebrew
-  srcname: typst
-  visiblename: typst
-  version: 0.15.1
-  origversion: null
-  status: newest
-  summary: Markup-based typesetting system
-- repo: homebrew
-  srcname: typst
-  visiblename: typst
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Markup-based typesetting system
 - repo: kaos
   subrepo: main
   srcname: typst
@@ -867,19 +880,6 @@
   origversion: null
   status: outdated
   summary: A new markup-based typesetting system that is powerful and easy to learn
-  maintainers:
-    - pol.dellaiera@protonmail.com
-    - figsoda@pm.me
-    - chad@redpilled.dev
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: typst
-  visiblename: typst
-  version: 0.12.0
-  origversion: null
-  status: outdated
-  summary: New markup-based typesetting system that is powerful and easy to learn
   maintainers:
     - pol.dellaiera@protonmail.com
     - figsoda@pm.me
@@ -1284,20 +1284,6 @@
     - ((MIT OR Apache-2.0) AND Unicode-3.0) AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND (MIT AND (MIT OR Apache-2.0)) AND (MIT OR Apache-2.0) AND (MIT OR Apache-2.0 OR CC0-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
   categories:
     - Unspecified
-- repo: terra_41
-  srcname: rust-typst
-  binname: rust-typst-zsh-completion
-  visiblename: rust-typst-zsh-completion
-  version: 0.13.1
-  origversion: 0.13.1-1.fc41
-  status: outdated
-  summary: Zsh completion for typst
-  maintainers:
-    - mado@fyralabs.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: terra_40
   srcname: rust-typst
   binname: typst
@@ -1418,6 +1404,20 @@
   origversion: 0.13.1-1.fc41
   status: outdated
   summary: Fish completion for typst
+  maintainers:
+    - mado@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: rust-typst
+  binname: rust-typst-zsh-completion
+  visiblename: rust-typst-zsh-completion
+  version: 0.13.1
+  origversion: 0.13.1-1.fc41
+  status: outdated
+  summary: Zsh completion for typst
   maintainers:
     - mado@fyralabs.com
   licenses:
@@ -1753,4 +1753,4 @@
   status: newest
   summary: markup-based typesetting software
   licenses:
-    - Apache Software License 2.0
+    - Apache License 2.0
