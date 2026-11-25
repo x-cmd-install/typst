@@ -14,11 +14,11 @@ x install typst
 
 ## Code insight
 
-Total: **115,832** lines of code across **451** files in the top 5 languages.
+Total: **115,853** lines of code across **451** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 109,637 | 6,856 | 15,864 | 417 |
+| Rust | 109,658 | 6,857 | 15,868 | 417 |
 | Css | 2,391 | 53 | 500 | 3 |
 | JavaScript | 1,494 | 420 | 247 | 2 |
 | Toml | 1,126 | 33 | 94 | 28 |
@@ -33,27 +33,27 @@ Total: **115,832** lines of code across **451** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.15.1` (2026-07-17)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-24
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 57,392 · **Forks**: 1,799 · **Open issues**: 4,674 · **Contributors**: 470
+- **Stars**: 57,414 · **Forks**: 1,802 · **Open issues**: 4,675 · **Contributors**: 470
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 2601 · **Open PRs**: 68 · **Closed issues**: 3380 · **Open issues**: 1294 · **Commits**: 4994
+- **Releases**: 30 · **Merged PRs**: 2604 · **Open PRs**: 67 · **Closed issues**: 3382 · **Open issues**: 1293 · **Commits**: 4997
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 14 | 18 | 13 | 35 | 12 |
-| last60d | 2026-09-25 | 0 | 43 | 32 | 33 | 81 | 64 |
-| 90d | 2026-08-26 | 0 | 77 | 37 | 60 | 105 | 108 |
-| last180d | 2026-05-28 | 3 | 207 | 52 | 173 | 208 | 271 |
-| 360d | 2025-11-29 | 5 | 501 | 64 | 434 | 395 | 746 |
-| last720d | 2024-12-04 | 11 | 1167 | 67 | 1115 | 802 | 1560 |
+| 30d | 2026-10-26 | 0 | 15 | 16 | 15 | 33 | 15 |
+| last60d | 2026-09-26 | 0 | 46 | 30 | 34 | 79 | 67 |
+| 90d | 2026-08-27 | 0 | 80 | 36 | 61 | 104 | 111 |
+| last180d | 2026-05-29 | 3 | 208 | 51 | 172 | 203 | 274 |
+| 360d | 2025-11-30 | 5 | 502 | 63 | 433 | 393 | 749 |
+| last720d | 2024-12-05 | 11 | 1164 | 66 | 1116 | 801 | 1550 |
 
 ## Release assets
 
@@ -69,19 +69,6 @@ Total: **115,832** lines of code across **451** files in the top 5 languages.
 | [typst-x86_64-pc-windows-msvc.zip](https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-pc-windows-msvc.zip) | 21.4 MiB | `native/win/x64` |
 | [typst-x86_64-unknown-linux-musl.tar.xz](https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-unknown-linux-musl.tar.xz) | 16.7 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **132** distros on [repology.org](https://repology.org/project/typst). **52** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `0.15.1` | ✅ latest |
-| Homebrew | `0.15.1` | ✅ latest |
-| Nix unstable | `0.15.1` | ✅ latest |
-| Void | `0.15.1` | ✅ latest |
-| Alpine edge | `0.15.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.15.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `typst` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -91,4 +78,4 @@ Install metadata for typst lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:44:54Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:05:58Z._
